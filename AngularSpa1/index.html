@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Angular SPA 1</title> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="Controllers/app.js"></script>
+    <script src="services/personService.js"></script>
+    <script src="Controllers/personController.js"></script>      
+</head>
+<body ng-app="MyApp">
+    <div ng-view class="container">
+        <h2>Result: {{ 6 + 8 }}</h2>
+    </div>
+</body>
+</html>
