@@ -5,10 +5,17 @@
 
         $routeProvider
             .when("/", {
-                templateUrl: "/partials/person.html",
-                controller: "PersonController"
+                controller: "PersonController",
+                templateUrl: "/partials/person.html"
+            })
+            .when("/country", {
+                controller: "CountryController",
+                templateUrl: "/partials/country.html"
             })
             .otherwise({ redirectTo: '/' });
 
-        //$locationProvider.html5Mode(true);
+        $locationProvider.html5Mode(true/*{
+            enabled: true,
+            requiredBase: false
+        }*/);
     });
