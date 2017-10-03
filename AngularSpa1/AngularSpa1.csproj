@@ -76,11 +76,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="controllers\app.js" />
+    <Content Include="controllers\clickMeController.js" />
     <Content Include="controllers\countryController.js" />
     <Content Include="controllers\personController.js" />
+    <Content Include="directives\clickMeDirective.js" />
     <Content Include="index.html" />
     <Content Include="partials\country.html" />
     <Content Include="partials\person.html" />
+    <Content Include="partials\transcluded.html" />
     <Content Include="services\countryService.js" />
     <Content Include="services\personService.js" />
     <Content Include="Web.config" />
