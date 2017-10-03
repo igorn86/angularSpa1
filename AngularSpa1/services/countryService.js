@@ -9,4 +9,4 @@
     };
 }
 
-app.service("CountryService", countryService);
+app.factory("CountryService", countryService);
