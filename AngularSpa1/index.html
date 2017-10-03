@@ -15,12 +15,21 @@
     <base href="/">
 </head>
 <body ng-app="MyApp">
-    <nav>
-        <a href="/">Home</a>
-        <a href="country">Get Country</a>
-    </nav>
-    <div ng-view class="container">
-        <h2>Result: {{ 6 + 8 }}</h2>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="country">Get Country</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div ng-view>
+                <h2>Result: {{ 6 + 8 }}</h2>
+            </div>
+        </div>
     </div>
+    
 </body>
 </html>
